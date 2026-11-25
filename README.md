@@ -90,9 +90,11 @@ Las capturas se tomaron en Chrome con la aplicación conectada a Supabase local.
 - La suite de frontend simula Supabase. El proyecto original se verificó con Auth, Data API y Realtime en Supabase local. También se probaron los flujos en Chrome de escritorio y con un ancho móvil emulado.
 - GitHub Actions ejecuta la instalación de dependencias, ESLint, las 20 pruebas automatizadas y la compilación. Las comprobaciones se superaron en Linux con Node.js 24. [Ver ejecuciones de CI](https://github.com/mandresjacome/panini-sticker-collection-portfolio/actions).
 
-## Autor
+## Licencia y autor
 
-Mario Andrés Jácome Mantilla · [@mandresjacome](https://github.com/mandresjacome)
+Mario Andrés Jácome Mantilla · [@mandresjacome](https://github.com/mandresjacome) · [Licencia MIT](LICENSE)
+
+La licencia MIT se aplica al código original del autor. Los materiales, datos y recursos de terceros conservan sus respectivos derechos y condiciones de uso.
 
 El proyecto original fue desarrollado por el mismo autor bajo el nombre AmalfiDev.
 
