@@ -90,6 +90,12 @@ Las capturas se tomaron en Chrome con la aplicación conectada a Supabase local.
 - La suite de frontend simula Supabase. El proyecto original se verificó con Auth, Data API y Realtime en Supabase local. También se probaron los flujos en Chrome de escritorio y con un ancho móvil emulado.
 - GitHub Actions ejecuta la instalación de dependencias, ESLint, las 20 pruebas automatizadas y la compilación. Las comprobaciones se superaron en Linux con Node.js 24. [Ver ejecuciones de CI](https://github.com/mandresjacome/panini-sticker-collection-portfolio/actions).
 
+## Autor
+
+Mario Andrés Jácome Mantilla · [@mandresjacome](https://github.com/mandresjacome)
+
+El proyecto original fue desarrollado por el mismo autor bajo el nombre AmalfiDev.
+
 ## Créditos
 
-El proyecto original acredita el desarrollo a AmalfiDev y los nombres del catálogo original a PaniniTrade. La estructura del álbum proviene de la planilla de control indicada en el [seed](supabase/seed.sql). [Migración del catálogo](supabase/migrations/004_add_sticker_names.sql)
+Los nombres del catálogo original se atribuyen a PaniniTrade. La estructura del álbum proviene de la planilla de control indicada en el [seed](supabase/seed.sql). [Migración del catálogo](supabase/migrations/004_add_sticker_names.sql).
