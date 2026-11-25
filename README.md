@@ -84,11 +84,11 @@ Las capturas se tomaron en Chrome con la aplicación conectada a Supabase local.
 3. [Edición detallada](docs/screenshots/04-edicion.png) con stock y observaciones de ejemplo.
 4. [Dashboard](docs/screenshots/05-dashboard.png) con métricas y la opción de exportar a Excel.
 
-## Límites y verificaciones pendientes
+## Límites y verificaciones
 
 - Las cotizaciones preparan listas para compartir y la compra se coordina por fuera de la aplicación.
 - La suite de frontend simula Supabase. El proyecto original se verificó con Auth, Data API y Realtime en Supabase local. También se probaron los flujos en Chrome de escritorio y con un ancho móvil emulado.
-- El workflow de GitHub Actions está configurado. Falta su primera ejecución en GitHub.
+- GitHub Actions ejecuta la instalación de dependencias, ESLint, las 20 pruebas automatizadas y la compilación. Las comprobaciones se superaron en Linux con Node.js 24. [Ver ejecuciones de CI](https://github.com/mandresjacome/panini-sticker-collection-portfolio/actions).
 
 ## Créditos
 
